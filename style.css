@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto+Condensed:wght@400;600&family=Roboto+Slab:wght@600;800&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.brand0{
+ 
+}
+.brand {
+    padding-left: 10px;
+    height: 45px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+   background-color: black;
+}
+.list{
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-top: 7px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.container{
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    background-image:url('img/butter.jpg');
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+
+}
+h1{
+    margin-left: 0.7em;
+    margin-top: 0.7em;
+    color: #ffffff;
+    font-family: monospace;
+}
+.allsong{
+    margin: 20px 0px 0px 20px;
+}
+.songlist{
+    margin-top: 5px;
+    height: 40px;
+    width: 29%;
+    border: 2px black solid;
+    border-radius: 30px;
+    font-family: monospace;
+    font-size: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.songlistimg{
+    width: 25px;
+    border: solid;
+    border-radius: 50%;
+    margin: 4.5px 3px 0px;
+}
+.songlistname{
+    width: 200px;
+    display: flex;
+    justify-content: row;
+   
+}
+.player{
+    color: #ffffff;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    height: 60px;
+    width: 95%;
+    bottom: 5px; 
+    flex-direction: column; 
+    border-radius: 15px;
+    margin:0% 2em 0%;
+
+}
+#progressBar{
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    width: 50%;
+    margin:5px auto 0px auto;
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.fa-solid,.fas{
+    cursor: pointer;
+    font-size: 37px;
+}
